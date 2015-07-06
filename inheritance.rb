@@ -77,6 +77,8 @@ end
 
 class Bat < Mammal
 
+  include Wings
+
   def speak
     "silence.. radar?"
   end
@@ -112,4 +114,4 @@ puts "bat speaks.. #{batman.speak}"
 puts "frog speaks.. #{kirmit.speak}"
 
 puts "parrot flies.. #{woody.fly}"
-
+puts "bat flies.. #{batman.fly}"
